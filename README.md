@@ -1,16 +1,17 @@
 # Trendwatcher
 
 Скачайте зависимости проекта
+* Если у вас установлен poetry
 ```
 poetry install
 ```
-*На проекте используется poetry, если вы используете pip, то перенесите зависимости в файл requirements.txt*
+* Если вы используете pip
 ```
-poetry export --no-interaction > requirements.txt
+pip install -r requirements.txt
 ```
 Запустите docker-compose.yaml
 ```
-docker-compose ip -d
+docker-compose up -d
 ```
 Зайдите на localhost:8081
 Введите учетные данные 
