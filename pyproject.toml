@@ -1,0 +1,22 @@
+[project]
+name = "trendwatcher"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Maria",email = "ms3079316@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "pydantic (>=2.14.0,<3.0.0)",
+    "sqlalchemy (>=2.1.4,<3.0.0)",
+    "pydantic-settings (>=2.15.0,<3.0.0)",
+    "ruff (>=0.17.0,<0.18.0)",
+    "mypy (>=2.4.0,<3.0.0)",
+    "aiosqlite (>=0.22.1,<0.23.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
