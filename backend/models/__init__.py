@@ -7,6 +7,8 @@ all = (
     "PublicationCluster",
     "Signal",
     "SignalSource",
+    "DigestSignal",
+    "Digest",
 )
 
 from backend.models.base import Base
@@ -17,3 +19,5 @@ from backend.models.cluster_items import ClusterItem
 from backend.models.publication_clusters import PublicationCluster
 from backend.models.signal_sources import SignalSource
 from backend.models.signals import Signal
+from backend.models.digest_signals import DigestSignal
+from backend.models.digests import Digest
