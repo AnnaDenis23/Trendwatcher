@@ -28,4 +28,3 @@ class DigestSignal(BaseWithUUID):
     digest: Mapped[Digest] = relationship(
         "Digest",
     )
-
