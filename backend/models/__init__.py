@@ -9,5 +9,3 @@ from backend.models.base import Base
 from backend.models.sources import Source
 from backend.models.target_roles import TargetRole
 from backend.models.raw_publications import RawPublication
-
-# CREATE EXTENSION IF NOT EXISTS vector; - ввести в adminer запросом, иначе с типом вектор не создастся ничего
